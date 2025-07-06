@@ -21,7 +21,7 @@ public class EcommerceApplication {
 		return args -> {
 			repository.save(new Order("ORD001", "Jeevan Reddy", "Laptop", LocalDate.of(2024, 7, 5), 600.0, "Completed"));
 			repository.save(new Order("ORD002", "Kavya Reddy", "Mobile", LocalDate.of(2024, 7, 6), 450.0, "Continuing"));
-			repository.save(new Order("ORD003", "Sharvya Reddy", "Tablet", LocalDate.of(2024, 7, 7), 720.0, "Canceled"));
+			repository.save(new Order("ORD003", "Shravya Reddy", "Tablet", LocalDate.of(2024, 7, 7), 720.0, "Canceled"));
 			repository.save(new Order("ORD004", "Charan Reddy", "Headphones", LocalDate.of(2024, 7, 8), 150.0, "Pending"));
 			repository.save(new Order("ORD005", "Deepak", "Monitor", LocalDate.of(2024, 7, 9), 550.0, "Shipped"));
 			repository.save(new Order("ORD006", "Sai Priya", "Keyboard", LocalDate.of(2024, 7, 10), 110.0, "Completed"));
